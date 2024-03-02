@@ -1,0 +1,5 @@
+**/output/*
+odl/global_trace.odl
+**/run_test
+*.deb
+*.tar.gz

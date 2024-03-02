@@ -1,0 +1,137 @@
+mod-sahtrace (1.1.0) unstable; urgency=medium
+
+  * Implement a global Logging policy.
+
+ -- SAH bot <sahbot@softathome.com>  Fri, 13 Oct 2023 09:32:33 +0000
+
+mod-sahtrace (1.0.7) unstable; urgency=medium
+
+  * Only save trace-zones
+
+ -- SAH bot <sahbot@softathome.com>  Fri, 06 Oct 2023 09:48:27 +0000
+
+mod-sahtrace (1.0.6) unstable; urgency=medium
+
+  * No traces in syslog when plug-in is started deamonized from ssh session
+
+ -- SAH bot <sahbot@softathome.com>  Wed, 15 Mar 2023 10:45:47 +0000
+
+mod-sahtrace (1.0.5) unstable; urgency=medium
+
+  * [SAHTrace] Use new syntax to prevent ubus config overwrite
+
+ -- SAH bot <sahbot@softathome.com>  Fri, 23 Sep 2022 11:16:11 +0000
+
+mod-sahtrace (1.0.4) unstable; urgency=medium
+
+  * amx/mod_sahtrace does not select dynamically stderr or syslog
+
+ -- SAH bot <sahbot@softathome.com>  Tue, 16 Aug 2022 10:36:44 +0000
+
+mod-sahtrace (1.0.3) unstable; urgency=medium
+
+  * Valgrind complains about uninitialized values
+
+ -- SAH bot <sahbot@softathome.com>  Fri, 15 Jul 2022 12:27:36 +0000
+
+mod-sahtrace (1.0.2) unstable; urgency=medium
+
+  * Should not pass NULL pointer to stat function
+
+ -- SAH bot <sahbot@softathome.com>  Tue, 28 Jun 2022 06:39:54 +0000
+
+mod-sahtrace (1.0.1) unstable; urgency=medium
+
+  * Add functions to make the tracelevel and zones runtime configurable
+
+ -- SAH bot <sahbot@softathome.com>  Thu, 09 Jun 2022 06:16:14 +0000
+
+mod-sahtrace (1.0.0) unstable; urgency=medium
+
+  * Add functions to make the tracelevel and zones runtime configurable
+
+ -- SAH bot <sahbot@softathome.com>  Fri, 03 Jun 2022 13:29:11 +0000
+
+mod-sahtrace (0.0.11) unstable; urgency=medium
+
+  * [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+ -- SAH bot <sahbot@softathome.com>  Mon, 23 May 2022 07:41:02 +0000
+
+mod-sahtrace (0.0.10) unstable; urgency=medium
+
+  * Doc generation for mod-sahtrace not working
+  * Move component from ambiorix to core on gitlab.com
+
+ -- SAH bot <sahbot@softathome.com>  Wed, 04 May 2022 12:44:53 +0000
+
+mod-sahtrace (0.0.9) unstable; urgency=medium
+
+  * Use global sahtrace level for zones if no zone level is defined
+
+ -- SAH bot <sahbot@softathome.com>  Tue, 03 Aug 2021 15:03:43 +0000
+
+mod-sahtrace (0.0.8) unstable; urgency=medium
+
+  * [tr181 plugins][makefile] Dangerous clean target for all tr181 components
+  * Use dyncast to interprete the trace lvl for trace zones
+
+ -- SAH bot <sahbot@softathome.com>  Fri, 25 Jun 2021 07:50:32 +0000
+
+mod-sahtrace (0.0.7) unstable; urgency=medium
+
+  * When plug-in names changes mod_sahtrace causes a segfault
+  * Add FAKEROOT variable to packages makefile
+  * Prepare for opensource
+  * Enable auto opensourcing
+
+ -- SAH bot <sahbot@softathome.com>  Tue, 04 May 2021 09:10:07 +0000
+
+mod-sahtrace (0.0.6) unstable; urgency=medium
+
+  * The version suffix should be removed from the shared object [change]
+
+ -- Johan JACOBS <johan.jacobs_ext@softathome.com>  Tue, 13 Apr 2021 09:22:02 +0000
+
+mod-sahtrace (0.0.5) unstable; urgency=medium
+
+  * Missing quote in mod-sahtrace baf.yml
+
+ -- Johan JACOBS <johan.jacobs_ext@softathome.com>  Thu, 11 Mar 2021 16:19:36 +0000
+
+mod-sahtrace (0.0.4) unstable; urgency=medium
+
+  * After introducing BAF mod_sahtrace.odl is no longer installed
+  * Not handled reasons in an entry point function should not cause a failure
+  * Updates test
+
+ -- Johan JACOBS <johan.jacobs_ext@softathome.com>  Mon, 08 Mar 2021 08:16:31 +0000
+
+mod-sahtrace (0.0.3) unstable; urgency=medium
+
+  * Update makefile
+  * Adds license and copyright to source file
+  * Linking is not done correctly when building the package
+
+ -- Peter De Herdt <peter.deherdt@softathome.com>  Mon, 30 Nov 2020 16:57:24 +0000
+
+mod-sahtrace (0.0.2) unstable; urgency=medium
+
+  * Correct install & release paths
+
+ -- Peter De Herdt <peter.deherdt@softathome.com>  Tue, 27 Oct 2020 12:16:11 +0000
+
+mod-sahtrace (0.0.1) unstable; urgency=medium
+
+  * Extends tests
+  * Updates readme
+  * Level of zones can be set
+  * trace-zones can be used
+
+ -- Peter De Herdt <peter.deherdt@softathome.com>  Fri, 23 Oct 2020 05:30:36 +0000
+
+mod-sahtrace (0.0.0) unstable; urgency=medium
+
+  * Initial version
+
+ -- sah4009 <Peter.deherdt@telenet.be>  Thu, 22 Oct 2020 07:54:18 +0000

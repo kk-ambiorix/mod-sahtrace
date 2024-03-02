@@ -1,0 +1,13 @@
+import "mod-sahtrace.so" as "sahtrace";
+
+#include "global_trace.odl";
+
+%config {
+    %global "ubus.register-on-start-event" = true;
+    %global config-storage-dir = "${rw_data_path}/${name}";
+    %global config-storage-file = "${rw_data_path}/${name}/${name}_config.odl";
+}
+
+%define {
+    entry-point sahtrace.main;
+}

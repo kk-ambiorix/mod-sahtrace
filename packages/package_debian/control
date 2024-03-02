@@ -1,0 +1,12 @@
+Source: mod-sahtrace
+Section: devel
+Priority: optional
+Maintainer: peter.deherdt <peter.deherdt01@gmail.com>
+
+Package: mod-sahtrace
+Architecture: amd64
+Depends: ${shlibs:Depends}
+Description: sahtrace module for amx plug-ins
+  Ambiorix add-on
+  Enables sahtrace in a plug-in
+ 
